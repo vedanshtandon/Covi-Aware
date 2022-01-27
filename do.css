@@ -100,4 +100,16 @@
         width : 90%;
     }
 
+    .prevention {
+    display        : flex;
+    flex-wrap      : wrap;
+    width          : 75%;
+    margin-top     : 85px;
+    margin-left    : 10%;
+    border         : solid 4px #FB4C47;
+    justify-content: center;
+    box-shadow     : 3px 5px #FB4C47;
+    border-radius  : 15px;
+    flex-direction : column;
+}
 }
