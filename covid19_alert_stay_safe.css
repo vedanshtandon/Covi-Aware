@@ -1,0 +1,86 @@
+.container2 {
+            display: flex;
+            flex-wrap: wrap;
+            margin-top: 5%;
+            font-family: 'Red Hat Display', sans-serif;
+            margin-left: 10%;
+            height: auto;
+        }
+
+        .container2 .box1 {
+            width: 35%;
+        }
+
+        .container2 .box1 .alert {
+            padding-top: 5rem;
+            font-weight: 1000;
+            font-size: 30px;
+            color: #FB4C47;
+        }
+
+        .container .box1 h1 {
+            margin-left: 20%;
+        }
+
+        .container2 .box2 {
+            width: 65%;
+        }
+
+        .container2 .box2 img {
+            height: 100%;
+            width: 100%;
+        }
+
+        .container2 .box1 p {
+            font-weight: 500;
+            font-size: 25px;
+        }
+
+        @media only screen and (max-width: 740px) {
+            .container2 {
+                display: flex;
+                flex-wrap: wrap;
+                flex-direction: column-reverse;
+                margin-top: 5%;
+                font-family: 'Red Hat Display', sans-serif;
+                margin-left: 10%;
+                height: auto;
+                justify-content: center;
+            }
+
+            .container2 .box1 {
+                width: 100%;
+                height: 70%;
+            }
+
+            .container2 .box1 .alert {
+                padding-top: 2rem;
+                font-weight: 1000;
+                font-size: 25px;
+                color: #FB4C47;
+            }
+
+            .container .box1 h1 {
+                margin-left: 20%;
+            }
+
+            .container2 .box2 {
+                padding:4px 0px;
+                margin-top: 12%;
+                width: 90%;
+                height:75%;
+                border: solid 3px #FB4C47;
+                border-radius: 15px;
+                box-shadow: #FB4C47 1px 2px;
+            }
+
+            .container2 .box2 img {
+                height: 100%;
+                width: 100%;
+            }
+
+            .container2 .box1 p {
+                font-weight: 500;
+                font-size: 20px;
+            }
+        }

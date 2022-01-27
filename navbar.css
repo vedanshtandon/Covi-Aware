@@ -1,0 +1,53 @@
+* {
+    font-family: 'Red Hat Display', sans-serif;
+    color: #035755;
+    background-color: #FFF8F8;
+}
+
+.container1 {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.container1 .virussection {
+    display: flex;
+    flex-wrap: wrap;
+    width: 40%;
+    justify-content: center;
+    align-content: center;
+}
+
+.container1 .virussection img {
+    display: inline;
+}
+
+.container1 .virussection p {
+    margin-left: 15px;
+    font-size: 22px;
+    font-weight: 800;
+    color: #035755;
+}
+
+.container1 .navbar {
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    justify-content: space-around;
+}
+
+.container1 .navbar div  {
+    display: inline;
+    background-color: #f59c9b;
+    width: 100px;
+    font-weight: 800;
+    font-size: 16px;
+    border-radius: 15px;
+    padding: 4px 0px;
+    text-align: center;
+    align-self: center;
+}
+.container1 .navbar div a{
+    display         : inline;
+    background-color: #f59c9b;
+    text-decoration: none;
+}

@@ -1,0 +1,48 @@
+
+.container4 {
+    margin-top: 150px;
+    display  : flex;
+    flex-wrap: wrap;
+}
+
+.container4 .virussection4 {
+    display        : flex;
+    flex-wrap      : wrap;
+    width          : 40%;
+    justify-content: center;
+    align-content  : center;
+}
+
+.container4 .virussection4 img {
+    display: inline;
+}
+
+.container4 .virussection4 p {
+    margin-left: 15px;
+    font-size  : 22px;
+    font-weight: 800;
+    color      : #035755;
+}
+
+.container4 .navbar4 {
+    display        : flex;
+    flex-wrap      : wrap;
+    width          : 60%;
+    justify-content: space-around;
+}
+
+.container4 .navbar4 div {
+    display         : inline;
+    background-color: #f59c9b;
+    width           : 100px;
+    font-weight     : 800;
+    font-size       : 16px;
+    border-radius   : 15px;
+    padding         : 4px 0px;
+    text-align      : center;
+    align-self      : center;
+}
+.container4 .navbar4 div a{
+    background-color: #f59c9b;
+    text-decoration: none;
+}
